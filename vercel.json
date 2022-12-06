@@ -2,9 +2,6 @@
 	"name": "deploy-node-in-vercel",
 	"version": 1,
 	"public": true,
-	"build": {
-		"use": "@vercel/node"
-	},
 	"routes": [
 		{
 			"src": "/(.*)",
